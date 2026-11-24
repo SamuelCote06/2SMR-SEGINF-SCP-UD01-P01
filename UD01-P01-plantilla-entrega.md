@@ -10,7 +10,7 @@
 
 | ID | Mecanismo | Objetivo principal (C, I, D, NR) | Física / Lógica | Activa / Pasiva | Justificación |
 |:---|:---|:---:|:---:|:---:|:---|
-| 1.1 | SAI servidor | | | |  **Fisica y pasiva (D) , fisica ppr que previene que el hardawre se dañe por un apagon repentino o por un corto,pasiva por que se activa cuando hay un corte de electricidad y disponibilidad por que es accesible** 
+| 1.1 | SAI servidor | Disponibilidad | Fisica | Pasiva |  **Fisica y pasiva (D) , fisica ppr que previene que el hardawre se dañe por un apagon repentino o por un corto,pasiva por que se activa cuando hay un corte de electricidad y disponibilidad por que es accesible** 
 | 1.2 | Cifrado BitLocker | | | | **Logica y activa (NR), logica por que cifre contenido que esta en e software, activa por que previene y no repudio por que si esta cifrado tu tendras la llave para descrifrarlo**
 | 1.3 | Cortafuegos perimetral | | | | **Logica y activa(D), Logica y activa por que previene que entre algun malware y disponibilidad por que lo tienes activo y disponible**
 | 1.4 | Copias de seguridad NAS | | | | **Logica y pasiva (I), Logica por que copia todo los archivos que hay en tu ordenador en ese momento y pasiva por que minimiza el daño dado que si se pierden los datos tienes tu copia y puedes volver a hacer funcionar tus archivos e integridad por que son tus archivos y no estan modificados por nadie**
